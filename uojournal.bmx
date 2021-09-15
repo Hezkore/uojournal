@@ -451,6 +451,10 @@ Function LoadSettings:TJournalSettings( file:String = "settings.json" )
 		filter = tab.AddFilter( "^System: " )
 		filter.output = True
 		
+		tab = settings.AddTab( "Skills & Stats", False )
+		filter = tab.AddFilter( "System:\sYour\s(skill\sin\s|intelligence|strength|dexterity)" )
+		filter.output = True
+		
 		tab = settings.AddTab( "Party", False )
 		filter = tab.AddFilter( "^\[Party\].*" )
 		filter.output = True

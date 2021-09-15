@@ -9,6 +9,7 @@ Comes with pre-configured tabs for:
 
 * All messages
 * System messages
+* Skills & Stats messages
 * Party messages _(with sound)_
 * Mentions _(with sound)_
 
