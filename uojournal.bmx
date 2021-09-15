@@ -445,8 +445,7 @@ Function LoadSettings:TJournalSettings( file:String = "settings.json" )
 		
 		' Create example filters
 		Local tab:TJournalTab = settings.AddTab( "All", True )
-		Local filter:TJournalFilter '= tab.AddFilter( "^a \w+" )
-		'filter.output = False
+		Local filter:TJournalFilter
 		
 		tab = settings.AddTab( "System", False )
 		filter = tab.AddFilter( "^System: " )

@@ -4,7 +4,7 @@ An external Journal viewer for Ultima Online.\
 Perfect for your secondary monitor, or for playing notification sounds for certain messages.
 
 
-Create tabs and filters by using simple regex.\
+Create tabs and filters by using [Perl regular expressions](https://perldoc.perl.org/perlre).\
 Comes with pre-configured tabs for:
 
 * All messages
