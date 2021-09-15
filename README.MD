@@ -16,7 +16,7 @@ Comes with pre-configured tabs for:
 ---
 * Make sure "Save Journal to file in game folder" is enabled in ClassicUO'
 	* _(it's in Options under "Speech")_
-* Download latest release
+* Download latest uojournal release
 * Extract downloaded archive anywhere
 * Start `uojournal`
 * Select your ClassicUO folder
@@ -26,7 +26,15 @@ If you are playing on Outlands; the correct path will be `"/Outlands/ClassicUO/"
 
 Edit `"settings.json"` to create your own tabs and filters.
 
+### **Building from source**
+---
+* Download [BlitzMax NG](https://blitzmax.org/)
+* Git clone this repo
+* Build `"uojournal.bmx"` as GUI application
+
+See [How to use](#how-to-use).
+
 ### **How does this work?**
 ---
-The viewer will use the latest external journal log found in `"/ClassicUO/Data/Client/JournalLogs/"` and match each line against your configured filters.\
+The viewer will use the latest external journal log found in `"/ClassicUO/Data/Client/JournalLogs/"` and match each line against your `"settings.json"` filters.\
 Names are also gathered from the `"/ClassicUO/Data/Profiles/lastcharacter.json"` file at start.
