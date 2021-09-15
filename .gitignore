@@ -1,4 +1,5 @@
 .bmx/
 .vscode/
 *.debug
+settings.json
 uojournal
